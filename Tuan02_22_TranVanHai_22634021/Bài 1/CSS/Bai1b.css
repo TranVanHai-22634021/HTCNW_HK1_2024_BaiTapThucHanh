@@ -1,0 +1,110 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.wraper {
+    width: 1089px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 1px red solid;
+    border-bottom: 1px black solid;
+}
+
+header {
+    width: 1089px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px rgb(17, 17, 17) solid;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 10px 15px 20px;
+}
+
+nav {
+    background-color: rgb(249, 86, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 2px;
+    border-right: 1px solid blue;
+    height: 35px;
+    width: 100px;
+    text-indent: center;
+    line-height: 30px;
+    margin-left: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav form {
+    display: flex;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: none;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#Starter {
+    width: 1089px;
+    height: 30px;
+    background-color: rgb(251, 246, 167);
+}
+
+.doan1 {
+    text-indent: 20px;
+}
+
+#Desserts {
+    width: 1089px;
+    height: 30px;
+    background-color: rgb(251, 246, 167);
+}
+
+.icon {
+    width: px;
+}
+
+.go {
+    background-color: rgb(224, 224, 223);
+    margin-left: 4px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.hinh {
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.search {
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}

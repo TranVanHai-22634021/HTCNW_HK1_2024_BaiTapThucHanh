@@ -1,0 +1,29 @@
+.article__div--img{
+    width: 750px;
+    height: 850px;
+    background-image: url(../IMG/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px auto;
+}
+
+.content>h2{
+    margin: 30px 0;
+    color: rgb(239, 202, 38);
+    font-size: 35px;
+}
+
+.article__div--img{
+    display: flex;
+    flex-direction: column;
+}
+
+.article__div--content{
+    width: 100%;
+}
+
+.article__div--content>p{
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(245, 247, 226);
+    box-shadow: 1px 1px 2px 2px inset rgb(73, 73, 72);
+}

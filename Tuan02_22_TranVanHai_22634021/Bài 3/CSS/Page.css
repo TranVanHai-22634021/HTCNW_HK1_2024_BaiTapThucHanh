@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper{
+    width: 960px;
+    /* height: 100vh; */
+    background-image: url(../IMG/background.jpg);
+    background-repeat: repeat;
+    padding: 10px;
+    display: block;
+}
+
+#links{
+    width: 20%;
+    background-color: white;
+    color: purple;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+    height: 250px;
+    box-shadow: inset -5px -5px 10px rgb(87, 87, 87);
+}
+.link__page{
+    margin-bottom: 20px;
+}
+
+.link__page > a{
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#noidung .title{
+    color: white;
+
+}
+
+#content{
+    display: flex;
+    margin-top: 20px;
+}
+
+#noidung{
+    border-left: 2px solid green;
+    width: 80%;
+    color: white;
+    /* padding: 10px; */
+    /* margin-left: 20px; */
+    padding-left: 20px;
+    /* margin-top: 20px; */
+}
+
+#title{
+    width: 550px;
+    background-color: green;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+#content__img{
+    display: flex;
+}
+
+.title{
+    width: 300px;
+    background-color: green;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+.list{
+    padding-left: 40px;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    border-top: 5px solid green;
+    padding-top: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#tac_gia{
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 30px;
+}

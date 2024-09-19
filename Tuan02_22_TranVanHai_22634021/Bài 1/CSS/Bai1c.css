@@ -1,0 +1,287 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.wraper {
+    width: 1400px;
+    height: 850px;
+    background-color: rgb(255, 255, 255);
+    border: 1px red solid;
+    border-bottom: 1px black solid;
+}
+
+header {
+    width: 1089px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px rgb(17, 17, 17) solid;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 5px 10px 2px rgb(255, 190, 201);
+}
+
+nav {
+    background-color: rgb(249, 86, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 2px;
+    border-right: 1px solid blue;
+    height: 35px;
+    width: 100px;
+    text-indent: center;
+    line-height: 30px;
+    margin-left: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav form {
+    display: flex;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: none;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#Starter {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(249, 86, 114);
+    margin-left: 390px;
+    margin-top: 10px;
+    letter-spacing: 20px;
+    text-indent: 30px;
+}
+
+.doan1 {
+    text-indent: 20px;
+    margin-left: 200px;
+}
+
+#Desserts {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(249, 86, 114);
+    margin-left: 390px;
+    letter-spacing: 20px;
+    text-indent: 30px;
+}
+
+#Information {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(249, 86, 114);
+    margin-left: 390px;
+    letter-spacing: 20px;
+    text-indent: 30px;
+}
+
+.icon {
+    width: px;
+}
+
+.go {
+    background-color: rgb(224, 224, 223);
+    margin-left: 4px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.hinh {
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.search {
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgb(249, 86, 114);
+    height: 15px;
+    width: 1350px;
+    border: 1px solid rgb(249, 86, 114);
+    text-align: center;
+    padding: 25px
+}
+
+aside {
+    float: right;
+    margin-top: 10px;
+    background-color: black;
+    height: 650px;
+    width: 290px;
+    margin-right: 0px;
+    color: #fff;
+}
+
+.hinh2 {
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin: 20px;
+}
+
+.hinh3 {
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin: 20px;
+    border-radius: 900px;
+    box-shadow: 10px 10px 20px rgb(255, 152, 169);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#p1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.back {
+    margin-left: 205px;
+}
+
+#MENU {
+    float: left;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    margin-left: 20px;
+    line-height: 2;
+    width: 200px;
+}
+
+#menu1 {
+    line-height: 3;
+}
+
+#menu1 :nth-child(1) {
+    margin-left: 20px;
+    background-color: rgb(249, 86, 114);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#menu1 :nth-child(3) {
+    margin-left: 20px;
+    background-color: rgb(249, 86, 114);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#menu1 :nth-child(5) {
+    margin-left: 20px;
+    background-color: rgb(249, 86, 114);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#menu1 :nth-child(7) {
+    margin-left: 20px;
+    background-color: rgb(249, 86, 114);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#menu1 :nth-child(9) {
+    margin-left: 20px;
+    background-color: rgb(249, 86, 114);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#input {
+    margin-left: 240px;
+    margin-top: 20px;
+    line-height: 3;
+}
+
+#Firstname {
+    height: 30px;
+    width: 300px;
+}
+
+#Lastname {
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+#Email {
+    height: 30px;
+    width: 300px;
+}
+
+#Telephone {
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+#USA {
+    height: 30px;
+    width: 305px;
+}
+
+#VietNamese {
+    margin-left: 20px;
+}
+
+#Comment {
+    height: 100px;
+    width: 630px;
+}
+
+#Sumit {
+    width: 70px;
+    height: 30px;
+}
+
+#Cannel {
+    width: 70px;
+    height: 30px;
+}

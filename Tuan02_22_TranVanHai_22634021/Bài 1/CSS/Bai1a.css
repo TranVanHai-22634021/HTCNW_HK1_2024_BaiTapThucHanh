@@ -1,0 +1,54 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.wraper {
+    width: 1089px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 1px red solid;
+    border-bottom: 1px black solid;
+}
+
+header {
+    width: 1089px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px rgb(17, 17, 17) solid;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 10px 15px 20px;
+}
+
+nav {
+    width: 1089px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px rgb(17, 17, 17) solid;
+}
+
+#navp {
+    text-indent: 2em;
+    color: blueviolet;
+}
+
+#Starter {
+    width: 1089px;
+    height: 30px;
+    background-color: rgb(251, 246, 167);
+}
+
+.doan1 {
+    text-indent: 20px;
+}
+
+#Desserts {
+    width: 1089px;
+    height: 30px;
+    background-color: rgb(251, 246, 167);
+}
