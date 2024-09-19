@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+.wraper {
+    height: 640px;
+    width: 700px;
+    background-color: #4bbaff;
+}
+
+.bottom-row,
+.top-row {
+    box-shadow: 5px 5px 1px 1px rgb(0, 100, 100);
+}
+
+.top-row {
+    background-color: #00FFFF;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 3px solid;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bottom-row {
+    background-color: #00FFFF;
+    color: black;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 3px solid;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.p1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+}
+
+input {
+    margin-left: 100px;
+}
+
+.input2 {
+    width: 110px;
+    margin-left: 0px;
+}
+
+.input3 {
+    width: 270px;
+}
+
+.label1 {
+    margin-left: 50px;
+}
+
+.label2 {
+    margin-left: 50px;
+    vertical-align: 30px;
+}
+
+.input4 {
+    width: 150px;
+    margin-left: 145px;
+}
+
+.input5 {
+    width: 50px;
+    margin-left: 0px;
+}
+
+.input6 {
+    width: 70px;
+    margin-left: 0px;
+}
+
+.input7 {
+    width: 150px;
+    margin-left: 120px;
+}
+
+.select1 {
+    margin-left: 120px;
+    width: 100px;
+}
+
+.input9 {
+    width: 150px;
+    margin-left: 70px;
+}
+
+.input10 {
+    width: 150px;
+    margin-left: 121px;
+}
+
+.input11 {
+    height: 80px;
+    width: 415px;
+}
+
+.line {
+    width: 600px;
+    margin-top: 10px;
+}
+
+.radio1 {
+    margin-left: 145px;
+}
+
+.radio2 {
+    margin-left: 246px;
+}
+
+.radio3 {
+    margin-left: 70px;
+}
+
+.radio4 {
+    margin-left: 53px;
+}
+
+.radio5 {
+    margin-left: 246px;
+}
+
+.box1 {
+    margin-left: 2px;
+}
+
+.box2 {
+    margin-left: 47px;
+}
+
+.box3 {
+    margin-left: 247px;
+}
+
+.box4 {
+    margin-left: 48px;
+}
+
+.icon1 {
+    margin-left: 200px;
+    border-radius: 3px;
+}
+
+.icon2 {
+    margin-left: 10px;
+    border-radius: 3px;
+}

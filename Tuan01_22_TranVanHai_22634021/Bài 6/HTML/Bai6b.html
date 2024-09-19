@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Bai6b.css">
+</head>
+
+<body>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <div class="khung1">
+            <p>You message</p>
+            <form>
+                <div class="form-group">
+                    <label for="To">To:</label>
+                    <div class="box1">
+                        <input type="text" id="To" name="To" placeholder="Example Cafe"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your email:</label>
+                    <div class="box2">
+                        <input type="email" id="email" name="email"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <div class="box3">
+                        <textarea id="message" name="message"></textarea></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="file">Attach File:</label>
+                    <input type="file" id="file" name="file">
+                </div>
+        </div>
+        <br>
+        <br>
+        <div class="khung2">
+            <div class="form-group">
+                <label for="how-found">How you found us: </label>
+                <br><label for="how-did">How did you hear of us</label>
+                <select id="how-did" name="how-did">
+                    <option value="google">Google</option>
+                    <option value="newsletter">Newsletter</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Newsletter">Newsletter 
+                    <input type="checkbox" name="newsletter">
+                    Ensure this box is checked if you would like to receive email updates
+                </label>
+            </div>
+        </div>
+        <br><button type="submit">Send message</button>
+        </form>
+    </div>
+</body>
+
+</html>

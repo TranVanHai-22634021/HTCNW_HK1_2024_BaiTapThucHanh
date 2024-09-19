@@ -1,0 +1,25 @@
+* table,
+th,
+td {
+    border: 2px solid black;
+    padding: 1px;
+}
+
+.bang1 {
+    border: 1px solid;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+}
+
+.bang2 {
+    border: 1px solid;
+    padding: 5px;
+    width: 700px;
+    height: 350px;
+}
+
+.table2 {
+    border-collapse: collapse;
+    border: solid blueviolet;
+}
