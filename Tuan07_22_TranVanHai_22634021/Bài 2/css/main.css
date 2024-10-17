@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row>* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+}
+
+.bg-header{
+    width: 800px;
+    height: 140px;
+    background-image: url(../img/banner_car.jpg);
+    background-repeat: no-repeat;
+}
+
+.form-label {
+    background-color: #cfcfcf;
+    margin-bottom: 0;
+    border: 1px solid #c3c3c3 ;
+    width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    padding: 0;
+    border-radius: 0;
+}
+
+.col-4,
+.col-8 {
+    background-color: #cfcfcf;
+
+}
+
+.img-baoGiaXe {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.form-middle .col-4 {
+    border: 2px solid white;
+}
+
+.form-middle .col-8 {
+    border: 2px solid white;
+}
+
+.add-bd {
+    border: 1px solid #000;
+}

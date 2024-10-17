@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .container-fluid {
+            background-image: url("../images/hero-bg.jpg");
+            width: 100%;
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+        }
+        
+        .fa {
+            color: white;
+        }
+        
+        .nav-link {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row" style="margin-left: 150px;">
+            <div class="col-12">
+                <div class="nav navbar-expand justify-content-between" style="margin-right: 200px;">
+                    <div class="navbar-brand text-light">Feane</div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item me-5">
+                            <a href="book.html" class="nav-link">BOOKTABLE</a></li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link btn btn-primary rounded-pill text-light py-1 mt-1" data-bs-toggle="modal" data-bs-target="#textmodal" style="width: 150px;">Order online</a>
+                        </li>
+                    </ul>
+
+                    <!-- Button trigger modal -->
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="textmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Orders</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <label for="" class="form-label">Telephone</label>
+                                        <input type="text" class="form-control" style="border-radius: 10px;">
+                                        <label for="" class="form-label">Email</label>
+                                        <input type="text" class="form-control" style="border-radius: 10px;">
+                                        <input type="checkbox" id="form-check">
+                                        <label for="#check" class="form-check-label">Check me out</label>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Order</button>
+                                    <button type="button" class="btn btn-warning">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="title " style="width: 550px; margin-top: 180px; ">
+                    <h1 class="text-light " style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Fast Food Restaurant</h1>
+                    <p class="text-light">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    </p>
+                    <button class="btn bg-warning rounded-pill px-4 text-light">Order now</button>
+
+                    <div class="group-circle d-flex " style="margin-top: 130px;">
+                        <div class="circle rounded-circle bg-light ms-1" style="width: 7px; height: 7px;"></div>
+                        <div class="circle rounded-circle bg-light ms-1" style="width: 7px; height: 7px;"></div>
+                        <div class="circle rounded-circle bg-warning ms-1" style="width: 7px; height: 7px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
